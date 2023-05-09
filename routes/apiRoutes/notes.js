@@ -1,4 +1,3 @@
-// const { notes } = require("../../db/db");
 const router = require("express").Router();
 const { createNewNote, readNotes } = require('../../lib/noteFunction');
 
