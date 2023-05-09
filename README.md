@@ -1,5 +1,14 @@
 # Note-Taker-App
 
+ # Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Languages Used](#languages)
+  - [Questions](#questions)
+  <br>
+
   # Screenshot 
 <a href="https://note-taking-webapp.herokuapp.com/"> Note Taker App Link </a>
 <br>
@@ -9,15 +18,6 @@
 
   # Description
   This webapp allows the user to take, store, and save notes.
-  <br>
-  
-  # Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Languages Used](#languages)
-  - [Questions](#questions)
   <br>
 
   # Installation
@@ -30,7 +30,9 @@
   <br>
 
   # Contributing
-  Brandon Whitman
+  Brandon Whitman 
+  <br>
+  Special thanks to TA Jake Dudum for the assist on getting some errors resolved. 
   <br>
 
   # Tests
