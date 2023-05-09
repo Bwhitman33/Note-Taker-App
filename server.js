@@ -1,15 +1,15 @@
+const PORT = process.env.port || 5500;
 const express = require("express");
-const PORT = process.env.port || 3001;
 const app = express();
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const fs = require('fs');
+const path = require('path');
 
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
-app.use(express.static('public'));
 
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+app.use('/api/notes', require('./routes/apiRoutes/notes.js'));
+app.use('/', require('./routes/htmlRoutes/index'));
 
 app.listen(PORT, () => {
   console.log(`App listening on PORT ${PORT}`);
