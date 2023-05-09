@@ -1,7 +1,12 @@
 # Note-Taker-App
 
-  # Screenshot
-  
+  # Screenshot 
+<a href="https://note-taking-webapp.herokuapp.com/"> Note Taker App Link </a>
+<br>
+<img src="assets\screenshots\note-taking-webapp1.png">
+<br>
+<img src="assets\screenshots\note-taking-webapp2.png">
+
   # Description
   This webapp allows the user to take, store, and save notes.
   <br>
